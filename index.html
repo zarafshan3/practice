@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar nav-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">FASHIONISTA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#band">Features</a></li>
+                    <li><a href="#tour">Pricing</a></li>
+                    <li class="dropdown">
+                        <a href="#more" class="dropdown-toggle" data-toggle="dropdown">More<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/pexels-photo-13634354.jpeg" alt="fashion">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/pexels-photo-322207.jpeg" alt="fashion">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/pexels-photo-7081100.jpeg" alt="fashion">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <h3>ABOUT</h3>
+            <p><i>we love style</i></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusantium veritatis culpa, soluta
+                ducimus, pariatur facere doloribus natus dolore nesciunt quia quam blanditiis consequuntur repellat
+                praesentium rerum vel assumenda quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+                ipsa ipsum dignissimos praesentium, quis, eius doloribus dolorum quaerat, numquam eveniet nihil ut
+                nostrum debitis porro dolor ducimus. Magni, corrupti pariatur!</p>
+        </div> 
+    </div>
+
+    <div class="campaign">
+        <br>
+        <h1 class="text-center" style="color: hotpink; font-size: 60px;">CAMPAIGN</h1>
+        <p class="text-center" style="font-size: 20px; color: blueviolet;">book before they sell out</p>
+        <br>
+        <ul class="list-group ul">
+            <li class="list-group-item">May   <span class="label label-danger">Sold Out</span></li>
+            <li class="list-group-item">June  <span class="label label-danger">Almost Sold Out</span></li>
+            <li class="list-group-item">July  <span class="badge">10</span></li>     
+        </ul>
+
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+    </div>
+</body>
+
+</html>

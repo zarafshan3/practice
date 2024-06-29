@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+.navbar{
+    height: 50px;
+    background-color: rgb(241, 189, 197);
+}
+
+.navbar-brand{
+    color: rgb(235, 57, 146) !important;
+    font-size: 25px;
+}
+
+ul li a{
+    color: black;
+    font-size: 15px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+}
+
+.text-center h3{
+    color: hotpink;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.text-center p i{
+    color: lightpink;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.campaign{
+    width: 100%;
+    min-height: 750px;
+    background-color: rgb(250, 250, 196);
+    margin-top: 90px;
+}
+
+.list-group{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.badge{
+    color: black;
+    background-color: yellow;
+}
